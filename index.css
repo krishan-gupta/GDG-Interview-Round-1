@@ -9,16 +9,20 @@
     width: 100%;
     min-height: 100vh;
     padding: 10px;
-    background-image: radial-gradient(circle, #5a157d, #520852, #3e0830, #250a18, #000000);
+    background-image: radial-gradient(circle, #90e0ef, #48cae4, #0077b6, #023047, #000000);
 }
 
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background: #fff ;
+    min-height: 300px;
+    background: #1e6091;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+}
+.todo-app:hover{
+    box-shadow: 0 0 50px 15px #00e5ff;
 }
 
 .todo-app h2{
@@ -55,7 +59,7 @@ button{
     border:none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: #0d1b2a;
     color: #fff ;
     font-size: 16px;
     cursor: pointer;
@@ -108,4 +112,14 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 
+}
+
+.head-todo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000000 !important;   /* pure black */
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: none;           /* remove any cyan/blue glow */
 }
