@@ -9,7 +9,7 @@
     width: 100%;
     min-height: 100vh;
     padding: 10px;
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    background-image: radial-gradient(circle, #5a157d, #520852, #3e0830, #250a18, #000000);
 }
 
 .todo-app{
